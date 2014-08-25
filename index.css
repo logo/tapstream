@@ -1,22 +1,2 @@
-
-/**
- * Tapstream
- */
-
-.logo[data-logo="Tapstream"] {
-  width: 4.554154221em;
-  /* (679.19/98.43) * (1-.17-.17) - 0 */
-}
-
-.logo[data-logo="Tapstream"] > * {
-  background-image: url(images/logo.svg);
-  margin: .17em 0;
-}
-
-.logo[data-logo="Tapstream"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Tapstream"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
